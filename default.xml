@@ -1194,9 +1194,6 @@
 
   <!-- xdroidPixel repos -->
   <include name="snippets/xd.xml" />
-  <include name="snippets/pe.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/xdp.xml" />
-  <include name="snippets/yaap.xml" />
-  <include name="snippets/arrow.xml" />
+  <include name="snippets/xdroid.xml" />
 </manifest>
