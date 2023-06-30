@@ -19,7 +19,10 @@
            fetch="https://github.com/xdroid-devices"
            revision="thirteen" />
 
-  <!-- GitLab (xDroid-OS) -->
+  <!-- GitLab (Evolution X) -->
+  <remote  name="evo-gitlab"
+           fetch="https://gitlab.com/EvoX"
+           revision="refs/heads/tiramisu" />
 
   <!-- GitLab (PE) -->
   <remote  name="pe-gitlab"
@@ -189,6 +192,7 @@
   <project path="vendor/xdroid" name="vendor_xdroid" remote="xdroid" />
   <project path="vendor/xdroidui-pref" name="vendor_xdroidui-pref" remote="xdroid" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdroid" />
+  <project path="vendor/gms" name="vendor_gms" groups="vendor" remote="evo-gitlab" clone-depth="1" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/nfc" name="PixelExperience/vendor_nxp_nfc" revision="thirteen" remote="github" />

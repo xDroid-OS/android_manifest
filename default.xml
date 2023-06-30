@@ -1192,8 +1192,7 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- xdroidPixel repos -->
-  <include name="snippets/xd.xml" />
+  <!-- xDroid-OS repos -->
   <include name="snippets/lineage.xml" />
   <include name="snippets/xdroid.xml" />
 </manifest>
